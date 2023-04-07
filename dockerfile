@@ -11,4 +11,4 @@ ENV PYTHONPATH=/app:$PYTHONPATH
 
 EXPOSE 4151
 
-CMD ["uvicorn", "server:app", "--host", "0.0.0.0", "--port", "4151"]
+CMD ['python', 'server.py']
