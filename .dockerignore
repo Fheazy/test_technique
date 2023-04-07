@@ -1,0 +1,23 @@
+__pycache__
+.idea/
+src/data
+
+# tests suite results
+.coverage
+*,cover
+coverage.xml
+htmlcov/
+junit*
+
+
+# ignore tox
+.tox
+.cache
+
+
+# ignore diff files
+**/*.diff
+
+
+# ignore pytest
+**.pytest*
